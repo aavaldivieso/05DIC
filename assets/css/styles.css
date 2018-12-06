@@ -1,0 +1,84 @@
+/*Global styles*/
+
+h1, h2, h3 {
+	font-family: "";
+}
+
+p, li, a, small {
+	font-family: "";
+}
+
+/*font-hierarchy*/
+
+h1 {
+	font-size: 3em;
+}
+h2 {
+	font-size: 2.25cm;
+}
+h3 {
+	font-size: 1.75em;
+}
+
+@media only screen and (max-width: 767px){
+	h1 {}
+	h2 {}
+	h3 {}
+}
+
+/*Navbar*/
+
+
+
+.icon-bar {
+
+}
+.navbar-brand img {
+	height: auto;
+	padding: 0px;
+	width: 50%;
+}
+
+.navbar-nav a{
+	list-style-type: none;
+	float: right;
+}
+
+ul.navbar li {
+	float: left;
+}
+
+.footer {
+	background-color: black;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+}
+.footer img {
+	height: auto;
+	width: 40px;
+}
+
+/*header*/
+
+.jumbotron {
+  height: auto;
+  width: 100vw;
+  margin-top: 90px;
+  background-image: url("assets/img/post-image.jpg");
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;
+}
+
+.header_barberia h1 {
+
+}
+
+.header_barberia p {
+
+}
+
+
+@media only screen and (max-width: 767px);
