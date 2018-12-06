@@ -1,11 +1,23 @@
 /*Global styles*/
 
 h1, h2, h3 {
-	font-family: "";
+	font-family: 'Playfair Display', serif;
+	color: white;
 }
 
-p, li, a, small {
-	font-family: "";
+h4 {
+	font-family: 'Playfair Display', serif;
+	color: gray;
+}
+
+p, small {
+	font-family: 'Playfair Display', serif;
+	color: gray;
+}
+
+li, a {
+	font-family: 'Roboto', sans-serif;
+	color: white;
 }
 
 /*font-hierarchy*/
@@ -18,6 +30,7 @@ h2 {
 }
 h3 {
 	font-size: 1.75em;
+	color: white;
 }
 
 @media only screen and (max-width: 767px){
@@ -26,9 +39,14 @@ h3 {
 	h3 {}
 }
 
+.container {
+	color: white;
+	width: 100vw;
+	padding: 20px;
+}
+
 /*Navbar*/
-
-
+}
 
 .icon-bar {
 
@@ -36,7 +54,7 @@ h3 {
 .navbar-brand img {
 	height: auto;
 	padding: 0px;
-	width: 50%;
+	width: 50px;
 }
 
 .navbar-nav a{
@@ -44,9 +62,11 @@ h3 {
 	float: right;
 }
 
-ul.navbar li {
-	float: left;
+ul {
+	margin-left: 0px;
 }
+
+/*footer*/
 
 .footer {
 	background-color: black;
@@ -61,18 +81,19 @@ ul.navbar li {
 
 /*header*/
 
-.jumbotron {
-  height: auto;
-  width: 100vw;
-  margin-top: 90px;
-  background-image: url("assets/img/post-image.jpg");
-		background-repeat: no-repeat;
-		background-position: center center;
-		background-attachment: fixed;
-		background-size: cover;
+.header {
+	height: 100vh;
+	width: auto;
+	background-image: url("../img/post-image.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
 
-.header_barberia h1 {
+.header h2 {
+	font-size: 4em;
+	color: white;
+	position: center center;
 
 }
 
