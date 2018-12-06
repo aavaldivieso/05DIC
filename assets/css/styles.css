@@ -13,6 +13,7 @@ h4 {
 p, small {
 	font-family: 'Playfair Display', serif;
 	color: gray;
+	margin-top: 10px;
 }
 
 li, a {
@@ -23,16 +24,18 @@ li, a {
 /*font-hierarchy*/
 
 h1 {
-	font-size: 3em;
+	font-size: 3.5em;
 }
 h2 {
-	font-size: 2.25cm;
+	font-size: 2.75cm;
 }
 h3 {
-	font-size: 1.75em;
+	font-size: 2.25em;
 	color: white;
 }
-
+h4 {
+	font-size: 1.75em;
+}
 @media only screen and (max-width: 767px){
 	h1 {}
 	h2 {}
@@ -43,6 +46,61 @@ h3 {
 	color: white;
 	width: 100vw;
 	padding: 20px;
+}
+
+.calendar {
+	width: 17px;
+	height: auto;
+	opacity: 1;
+	margin-left: 5.5px;
+	margin-bottom: 12.5px;
+}
+
+/*extras*/
+
+.dot {
+  height: 32px;
+  width: 32px;
+  background-color: white;
+  border-color: gray;
+  opacity: 0.5;
+  border-style: solid;
+  border-width: 1.5px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-fondo {
+  height: 40px;
+  width: 40px;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.button {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.button5 {border-radius: 50%;}
+
+.button small {
+	color: white;
+}
+
+.rrss {
+	width: 22px;
+	height: auto;
+	margin-top: 8px;
+	margin-left: 8px;
 }
 
 /*Navbar*/
