@@ -49,20 +49,40 @@ h4 {
 	h3 {}
 }
 
+@media (min-width: 768px) and (max-width: 991px){
+	
+}
+
+@media (min-width: 992px){
+}
+
 .seccion3 {
-	background-color: gray;
+	background-color: rgba(200,200,200,1);
 	width: 100%;
 	opacity: 0.5;
 	height: 17.5vh;
 	text-align: center;
+	border: gray solid 1px;
+}
+
+.seccion3__p {
+	
+	color: rgba(20,20,20,1);
+	display: inline;
+	margin-top: 30px;
 }
 
 .seccion4 {
 	color: white;
 	border-color: gray 0.5px;
     border-style: solid;
-	width: 100vw;
+	width: 100%;
 	padding: 20px;
+	border: gray solid 1px;
+}
+
+.seccion4__text {
+	margin-top: 60px;
 }
 
 .container {
@@ -194,7 +214,7 @@ ul {
 
 }
 
-.header_barberia p {
+.header__barberia p {
 
 }
 
